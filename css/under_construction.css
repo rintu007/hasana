@@ -1,0 +1,41 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: #093;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    line-height: 1.2em;
+    margin: 0.6em;
+    padding: 0;
+    font-size: 2em;
+}
+a{
+	color:  #EDF9BB;
+}
+
+.container {
+    margin: auto;
+    position: absolute;
+    top: 7em;
+    left: 2em;
+    bottom: 0;
+    right: 2em;
+}
+ .para p:first-child{
+	margin:2em 0;
+	display: block;
+}
+
+@media (max-width:767px) {
+    .container {
+        top: 3em;
+    }
+    h1 {
+    font-size: 1.8em;
+}
+}
